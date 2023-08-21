@@ -17,6 +17,7 @@ SQL개발자/SQL전문가  certification
 
 ## 시험준비
 [이기적 CBT SQL 개발자](https://cbt.youngjin.com/exam/index.php?no=73)
+[이기적 SQL 개발자 기출문제 500제](https://license.youngjin.com/free_edu/free_edu_mp4.asp?elc_cd=2536&cate_cd=2393)
 ```
 데이터베이스 응용 과목 들으면서 이기적 기출문제 500제 풀고 쉴 때 CBT
 ```
