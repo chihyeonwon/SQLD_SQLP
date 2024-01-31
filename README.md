@@ -21,3 +21,6 @@ SQL개발자/SQL전문가  certification
 ```
 데이터베이스 응용 과목 들으면서 이기적 기출문제 500제 풀고 쉴 때 CBT
 ```
+![image](https://github.com/wonchihyeon/SQLD_SQLP/assets/58906858/d0e5f82d-3df7-44aa-8c6b-29e4dc7ec7b8)
+![image](https://github.com/wonchihyeon/SQLD_SQLP/assets/58906858/239539e7-daba-4887-b6aa-abb2b195f450)
+![image](https://github.com/wonchihyeon/SQLD_SQLP/assets/58906858/2a753950-e317-4194-b3be-9db85738624a)
