@@ -1,6 +1,8 @@
 # SQLD_SQLP
 SQL개발자/SQL전문가  certification
 
+## 24.03.09 춘천 52회 SQLD 
+
 ## 자격요건 및 합격기준
 ![image](https://github.com/wonttan/SQLD_SQLP/assets/58906858/cc8e8790-50c4-4efc-926a-7d4272b00a98)
 ```
