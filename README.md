@@ -91,7 +91,20 @@ SQL문을 ANSI 표준 SQL로 바꾸는 문장 -> left,right outer join, cross jo
 ```
 #### 2회기출
 ```
-
+파티션기법의 종류: List Partition(관리자가 파티셔닝할 항목을 직접 지정), Range(범위 기준), Hash(해시 함수이용)
+Compsite(Range와 Hash를 복합적으로 사용한다.)
+실행 계획을 읽는 순서 : 안에서 밖으로 읽으면서 같은 레벨에서는 위에서 아래로 읽는다.
+declare cursor-> open cursor -> fetch cursor -> close cursor
+rownum은 oracle db, sql server에서는 top구에 with ties를 사용한다.
+where 절에 같지않음이 들어가면 cross join 을 수행한다.
+스칼라 -> 메인쿼리 o 메인쿼리 -> 스칼라 x
+인라인 -> 메인쿼리 o 메인쿼리 -> 인라인 o
+predicate information에서 행의 수를 9개로 제한 filter(ROWNUM<10)
+ntile 함수 -> ntile(n) n만큼 파티션을 균등하게 분할한다. order by 1 오름차순으로 정렬후 균등하게 분할
+lead(대상속성, 순서, 디폴트 값) 이후 순서(몇 칸?)에 나올 행을 출력한다. 반대는 Lag 함수 (이전 행)
+nullif(a,b) a와 b가 같으면 null을 출력 같지 않으면 a를 출력한다.
+Nested Loop join은 Random Access가 발생하여 성능이 떨어진다. 선행과 후행테이블을 선정하고 선행 조회 후
+후행 테이블을 Random access로 조인한다.
 ```
 #### 3회기출
 ```
