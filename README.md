@@ -27,6 +27,10 @@ SQL개발자/SQL전문가  certification
 ![image](https://github.com/wonchihyeon/SQLD_SQLP/assets/58906858/239539e7-daba-4887-b6aa-abb2b195f450)
 ![image](https://github.com/wonchihyeon/SQLD_SQLP/assets/58906858/2a753950-e317-4194-b3be-9db85738624a)
 
+## Top N 쿼리
+
+## Pivot vs UnPivot
+
 ## SQL 개발자 핵심 150제 틀린 문제 개념 정리
 #### 24. 02.01
 ![image](https://github.com/wonchihyeon/SQLD_SQLP/assets/58906858/96efc438-7ad1-4d5e-9658-7bf7d41f1c8f)
