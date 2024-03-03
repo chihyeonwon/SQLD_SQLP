@@ -69,6 +69,9 @@ SQL개발자/SQL전문가  certification
 데이터무결성을 깨뜨리는 기법 : 칼럼, 테이블의 반정규화
 
 where 절에 집계함수 불가능, 서브쿼리 절에 order by 불가능
+
+alter table 에서 drop column, modify column 처럼 column이 붙으면 여러 속성 변경 불가
+rename column 역시도
 ```
 #### 24.02.02
 1과목 데이터 모델링의 이해
