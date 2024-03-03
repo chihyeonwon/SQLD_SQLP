@@ -76,6 +76,13 @@ rename column 역시도
 delete, 데이터 전체삭제,일부삭제 가능, 롤백 가능, DML
 truncate 데이터 전체삭제(일부삭제불가능), 롤백 불가능, DDL
 drop : 데이터와 구조 모두 삭제 롤백 불가능, DDL
+
+사원 emp, 부서 dept 일때
+부모 : 부서 dept에 pk키 검 add constraint 이름생략가능 primary key(deptno)
+자식 : 자식 emp에 foreign 키 검 add constraint 이름생략가능 foregin key(deptno) references primary key(deptno)
+
+부모 테이블에는 삭제제약(자식이 먼저 삭제가 되야함), 업데이트제약(자식에 값이 있기 때문에)
+자식 테이블에서 삭제가능, 업데이트는 제약될 수 있음(부모에 있는 값으로 해야함)
 ```
 #### 24.02.02
 1과목 데이터 모델링의 이해
