@@ -72,6 +72,10 @@ where 절에 집계함수 불가능, 서브쿼리 절에 order by 불가능
 
 alter table 에서 drop column, modify column 처럼 column이 붙으면 여러 속성 변경 불가
 rename column 역시도
+
+delete, 데이터 전체삭제,일부삭제 가능, 롤백 가능, DML
+truncate 데이터 전체삭제(일부삭제불가능), 롤백 불가능, DDL
+drop : 데이터와 구조 모두 삭제 롤백 불가능, DDL
 ```
 #### 24.02.02
 1과목 데이터 모델링의 이해
