@@ -5,6 +5,9 @@ SQL개발자/SQL전문가  certification
 1과목 10점 
 2과목 64점
 
+## 24년 하반기 SQLE 전문가 접수
+
+
 ## 자격요건 및 합격기준
 ![image](https://github.com/wonttan/SQLD_SQLP/assets/58906858/cc8e8790-50c4-4efc-926a-7d4272b00a98)
 ```
